@@ -1,0 +1,249 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\84859\\Workspace\\_GITHUB\\Demo_projects\\IdentityAPIDemo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{155F5B3F-F660-40E9-BE2C-8B43C6E1DAC5}|IdentityAPIDemo\\IdentityAPIDemo.csproj|C:\\Users\\84859\\Workspace\\_GITHUB\\Demo_projects\\IdentityAPIDemo\\identityapidemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{155F5B3F-F660-40E9-BE2C-8B43C6E1DAC5}|IdentityAPIDemo\\IdentityAPIDemo.csproj|solutionrelative:identityapidemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{155F5B3F-F660-40E9-BE2C-8B43C6E1DAC5}|IdentityAPIDemo\\IdentityAPIDemo.csproj|C:\\Users\\84859\\Workspace\\_GITHUB\\Demo_projects\\IdentityAPIDemo\\identityapidemo\\models\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{155F5B3F-F660-40E9-BE2C-8B43C6E1DAC5}|IdentityAPIDemo\\IdentityAPIDemo.csproj|solutionrelative:identityapidemo\\models\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{155F5B3F-F660-40E9-BE2C-8B43C6E1DAC5}|IdentityAPIDemo\\IdentityAPIDemo.csproj|c:\\users\\84859\\workspace\\_github\\demo_projects\\identityapidemo\\identityapidemo\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{155F5B3F-F660-40E9-BE2C-8B43C6E1DAC5}|IdentityAPIDemo\\IdentityAPIDemo.csproj|solutionrelative:identityapidemo\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58597865-EFCE-4A6F-94B0-71569CF54104}|Data\\Data.csproj|C:\\Users\\84859\\Workspace\\_GITHUB\\Demo_projects\\IdentityAPIDemo\\data\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58597865-EFCE-4A6F-94B0-71569CF54104}|Data\\Data.csproj|solutionrelative:data\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{155F5B3F-F660-40E9-BE2C-8B43C6E1DAC5}|IdentityAPIDemo\\IdentityAPIDemo.csproj|c:\\users\\84859\\workspace\\_github\\demo_projects\\identityapidemo\\identityapidemo\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{155F5B3F-F660-40E9-BE2C-8B43C6E1DAC5}|IdentityAPIDemo\\IdentityAPIDemo.csproj|solutionrelative:identityapidemo\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5728C1B1-A14B-4EE8-AD77-4920E936BB86}|Services\\Services.csproj|C:\\Users\\84859\\Workspace\\_GITHUB\\Demo_projects\\IdentityAPIDemo\\services\\services\\usermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5728C1B1-A14B-4EE8-AD77-4920E936BB86}|Services\\Services.csproj|solutionrelative:services\\services\\usermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{155F5B3F-F660-40E9-BE2C-8B43C6E1DAC5}|IdentityAPIDemo\\IdentityAPIDemo.csproj|C:\\Users\\84859\\Workspace\\_GITHUB\\Demo_projects\\IdentityAPIDemo\\identityapidemo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{155F5B3F-F660-40E9-BE2C-8B43C6E1DAC5}|IdentityAPIDemo\\IdentityAPIDemo.csproj|solutionrelative:identityapidemo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5728C1B1-A14B-4EE8-AD77-4920E936BB86}|Services\\Services.csproj|C:\\Users\\84859\\Workspace\\_GITHUB\\Demo_projects\\IdentityAPIDemo\\services\\models\\authentication\\user\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5728C1B1-A14B-4EE8-AD77-4920E936BB86}|Services\\Services.csproj|solutionrelative:services\\models\\authentication\\user\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5728C1B1-A14B-4EE8-AD77-4920E936BB86}|Services\\Services.csproj|C:\\Users\\84859\\Workspace\\_GITHUB\\Demo_projects\\IdentityAPIDemo\\services\\services\\iusermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5728C1B1-A14B-4EE8-AD77-4920E936BB86}|Services\\Services.csproj|solutionrelative:services\\services\\iusermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5728C1B1-A14B-4EE8-AD77-4920E936BB86}|Services\\Services.csproj|C:\\Users\\84859\\Workspace\\_GITHUB\\Demo_projects\\IdentityAPIDemo\\services\\models\\authentication\\user\\createuserresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5728C1B1-A14B-4EE8-AD77-4920E936BB86}|Services\\Services.csproj|solutionrelative:services\\models\\authentication\\user\\createuserresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5728C1B1-A14B-4EE8-AD77-4920E936BB86}|Services\\Services.csproj|C:\\Users\\84859\\Workspace\\_GITHUB\\Demo_projects\\IdentityAPIDemo\\services\\models\\authentication\\user\\loginotpresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5728C1B1-A14B-4EE8-AD77-4920E936BB86}|Services\\Services.csproj|solutionrelative:services\\models\\authentication\\user\\loginotpresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5728C1B1-A14B-4EE8-AD77-4920E936BB86}|Services\\Services.csproj|C:\\Users\\84859\\Workspace\\_GITHUB\\Demo_projects\\IdentityAPIDemo\\services\\services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5728C1B1-A14B-4EE8-AD77-4920E936BB86}|Services\\Services.csproj|solutionrelative:services\\services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58597865-EFCE-4A6F-94B0-71569CF54104}|Data\\Data.csproj|C:\\Users\\84859\\Workspace\\_GITHUB\\Demo_projects\\IdentityAPIDemo\\data\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58597865-EFCE-4A6F-94B0-71569CF54104}|Data\\Data.csproj|solutionrelative:data\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 238,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 1641,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{99a11807-c5db-4877-ad35-09b56a044011}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{99a11807-c5db-4877-ad35-09b56a044002}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\84859\\Workspace\\_GITHUB\\Demo_projects\\IdentityAPIDemo\\IdentityAPIDemo\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "IdentityAPIDemo\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\84859\\Workspace\\_GITHUB\\Demo_projects\\IdentityAPIDemo\\IdentityAPIDemo\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "IdentityAPIDemo\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T00:07:57.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoginResponse.cs",
+              "DocumentMoniker": "C:\\Users\\84859\\Workspace\\_GITHUB\\Demo_projects\\IdentityAPIDemo\\Services\\Models\\Authentication\\User\\LoginResponse.cs",
+              "RelativeDocumentMoniker": "Services\\Models\\Authentication\\User\\LoginResponse.cs",
+              "ToolTip": "C:\\Users\\84859\\Workspace\\_GITHUB\\Demo_projects\\IdentityAPIDemo\\Services\\Models\\Authentication\\User\\LoginResponse.cs",
+              "RelativeToolTip": "Services\\Models\\Authentication\\User\\LoginResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T15:45:37.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Response.cs",
+              "DocumentMoniker": "C:\\Users\\84859\\Workspace\\_GITHUB\\Demo_projects\\IdentityAPIDemo\\IdentityAPIDemo\\Models\\Response.cs",
+              "RelativeDocumentMoniker": "IdentityAPIDemo\\Models\\Response.cs",
+              "ToolTip": "C:\\Users\\84859\\Workspace\\_GITHUB\\Demo_projects\\IdentityAPIDemo\\IdentityAPIDemo\\Models\\Response.cs",
+              "RelativeToolTip": "IdentityAPIDemo\\Models\\Response.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T09:32:32.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\84859\\Workspace\\_GITHUB\\Demo_projects\\IdentityAPIDemo\\IdentityAPIDemo\\appsettings.json",
+              "RelativeDocumentMoniker": "IdentityAPIDemo\\appsettings.json",
+              "ToolTip": "C:\\Users\\84859\\Workspace\\_GITHUB\\Demo_projects\\IdentityAPIDemo\\IdentityAPIDemo\\appsettings.json",
+              "RelativeToolTip": "IdentityAPIDemo\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-04T03:55:54.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\84859\\Workspace\\_GITHUB\\Demo_projects\\IdentityAPIDemo\\IdentityAPIDemo\\Program.cs",
+              "RelativeDocumentMoniker": "IdentityAPIDemo\\Program.cs",
+              "ToolTip": "C:\\Users\\84859\\Workspace\\_GITHUB\\Demo_projects\\IdentityAPIDemo\\IdentityAPIDemo\\Program.cs",
+              "RelativeToolTip": "IdentityAPIDemo\\Program.cs",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAAAHIAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T03:29:06.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CreateUserResponse.cs",
+              "DocumentMoniker": "C:\\Users\\84859\\Workspace\\_GITHUB\\Demo_projects\\IdentityAPIDemo\\Services\\Models\\Authentication\\User\\CreateUserResponse.cs",
+              "RelativeDocumentMoniker": "Services\\Models\\Authentication\\User\\CreateUserResponse.cs",
+              "ToolTip": "C:\\Users\\84859\\Workspace\\_GITHUB\\Demo_projects\\IdentityAPIDemo\\Services\\Models\\Authentication\\User\\CreateUserResponse.cs",
+              "RelativeToolTip": "Services\\Models\\Authentication\\User\\CreateUserResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T02:53:03.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserManagement.cs",
+              "DocumentMoniker": "C:\\Users\\84859\\Workspace\\_GITHUB\\Demo_projects\\IdentityAPIDemo\\Services\\Services\\UserManagement.cs",
+              "RelativeDocumentMoniker": "Services\\Services\\UserManagement.cs",
+              "ToolTip": "C:\\Users\\84859\\Workspace\\_GITHUB\\Demo_projects\\IdentityAPIDemo\\Services\\Services\\UserManagement.cs",
+              "RelativeToolTip": "Services\\Services\\UserManagement.cs",
+              "ViewState": "AQIAAOEAAAAAAAAAAAAwwO4AAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T02:51:18.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IUserManagement.cs",
+              "DocumentMoniker": "C:\\Users\\84859\\Workspace\\_GITHUB\\Demo_projects\\IdentityAPIDemo\\Services\\Services\\IUserManagement.cs",
+              "RelativeDocumentMoniker": "Services\\Services\\IUserManagement.cs",
+              "ToolTip": "C:\\Users\\84859\\Workspace\\_GITHUB\\Demo_projects\\IdentityAPIDemo\\Services\\Services\\IUserManagement.cs",
+              "RelativeToolTip": "Services\\Services\\IUserManagement.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAcwA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T02:48:40.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LoginOTPResponse.cs",
+              "DocumentMoniker": "C:\\Users\\84859\\Workspace\\_GITHUB\\Demo_projects\\IdentityAPIDemo\\Services\\Models\\Authentication\\User\\LoginOTPResponse.cs",
+              "RelativeDocumentMoniker": "Services\\Models\\Authentication\\User\\LoginOTPResponse.cs",
+              "ToolTip": "C:\\Users\\84859\\Workspace\\_GITHUB\\Demo_projects\\IdentityAPIDemo\\Services\\Models\\Authentication\\User\\LoginOTPResponse.cs",
+              "RelativeToolTip": "Services\\Models\\Authentication\\User\\LoginOTPResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T02:47:52.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthenticationController.cs",
+              "DocumentMoniker": "C:\\Users\\84859\\Workspace\\_GITHUB\\Demo_projects\\IdentityAPIDemo\\IdentityAPIDemo\\Controllers\\AuthenticationController.cs",
+              "RelativeDocumentMoniker": "IdentityAPIDemo\\Controllers\\AuthenticationController.cs",
+              "ToolTip": "C:\\Users\\84859\\Workspace\\_GITHUB\\Demo_projects\\IdentityAPIDemo\\IdentityAPIDemo\\Controllers\\AuthenticationController.cs",
+              "RelativeToolTip": "IdentityAPIDemo\\Controllers\\AuthenticationController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAwwDMBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T02:45:10.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Services",
+              "DocumentMoniker": "C:\\Users\\84859\\Workspace\\_GITHUB\\Demo_projects\\IdentityAPIDemo\\Services\\Services.csproj",
+              "RelativeDocumentMoniker": "Services\\Services.csproj",
+              "ToolTip": "C:\\Users\\84859\\Workspace\\_GITHUB\\Demo_projects\\IdentityAPIDemo\\Services\\Services.csproj",
+              "RelativeToolTip": "Services\\Services.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-04T02:42:07.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\84859\\Workspace\\_GITHUB\\Demo_projects\\IdentityAPIDemo\\Data\\Models\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\Models\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\84859\\Workspace\\_GITHUB\\Demo_projects\\IdentityAPIDemo\\Data\\Models\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\Models\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAYAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T02:40:34.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\84859\\Workspace\\_GITHUB\\Demo_projects\\IdentityAPIDemo\\Data\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Data\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\84859\\Workspace\\_GITHUB\\Demo_projects\\IdentityAPIDemo\\Data\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "Data\\Models\\ApplicationUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T02:39:26.498Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
