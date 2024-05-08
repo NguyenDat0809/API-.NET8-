@@ -11,12 +11,12 @@
       "RelativeMoniker": "D:0:0:{58597865-EFCE-4A6F-94B0-71569CF54104}|Data\\Data.csproj|solutionrelative:data\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58597865-EFCE-4A6F-94B0-71569CF54104}|Data\\Data.csproj|C:\\Users\\84859\\Workspace\\_GITHUB\\API.NET8\\IdentityAPIDemo\\data\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58597865-EFCE-4A6F-94B0-71569CF54104}|Data\\Data.csproj|solutionrelative:data\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{155F5B3F-F660-40E9-BE2C-8B43C6E1DAC5}|IdentityAPIDemo\\IdentityAPIDemo.csproj|C:\\Users\\84859\\Workspace\\_GITHUB\\API.NET8\\IdentityAPIDemo\\identityapidemo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{155F5B3F-F660-40E9-BE2C-8B43C6E1DAC5}|IdentityAPIDemo\\IdentityAPIDemo.csproj|solutionrelative:identityapidemo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58597865-EFCE-4A6F-94B0-71569CF54104}|Data\\Data.csproj|C:\\Users\\84859\\Workspace\\_GITHUB\\API.NET8\\IdentityAPIDemo\\data\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58597865-EFCE-4A6F-94B0-71569CF54104}|Data\\Data.csproj|solutionrelative:data\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -52,7 +52,7 @@
               "RelativeDocumentMoniker": "IdentityAPIDemo\\Program.cs",
               "ToolTip": "C:\\Users\\84859\\Workspace\\_GITHUB\\API.NET8\\IdentityAPIDemo\\IdentityAPIDemo\\Program.cs",
               "RelativeToolTip": "IdentityAPIDemo\\Program.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAMwBgAAAAAAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAMwBsAAABMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-08T15:42:23.596Z",
               "EditorCaption": ""
@@ -65,13 +65,14 @@
               "RelativeDocumentMoniker": "Data\\Models\\ApplicationUser.cs",
               "ToolTip": "C:\\Users\\84859\\Workspace\\_GITHUB\\API.NET8\\IdentityAPIDemo\\Data\\Models\\ApplicationUser.cs",
               "RelativeToolTip": "Data\\Models\\ApplicationUser.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T15:27:16.332Z"
+              "WhenOpened": "2024-05-08T15:27:16.332Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\84859\\Workspace\\_GITHUB\\API.NET8\\IdentityAPIDemo\\IdentityAPIDemo\\appsettings.json",
               "RelativeDocumentMoniker": "IdentityAPIDemo\\appsettings.json",
@@ -79,11 +80,12 @@
               "RelativeToolTip": "IdentityAPIDemo\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-08T15:20:55.659Z"
+              "WhenOpened": "2024-05-08T15:20:55.659Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\84859\\Workspace\\_GITHUB\\API.NET8\\IdentityAPIDemo\\Data\\Models\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Data\\Models\\ApplicationDbContext.cs",
@@ -91,7 +93,8 @@
               "RelativeToolTip": "Data\\Models\\ApplicationDbContext.cs",
               "ViewState": "AQIAABMAAAAAAAAAAAAcwCYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T15:07:47.401Z"
+              "WhenOpened": "2024-05-08T15:07:47.401Z",
+              "EditorCaption": ""
             }
           ]
         }

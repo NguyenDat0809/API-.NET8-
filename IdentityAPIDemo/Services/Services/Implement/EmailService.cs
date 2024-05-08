@@ -1,9 +1,10 @@
 ﻿using MailKit.Net.Smtp;
 using MimeKit;
 using Services.Models;
+using Services.Services.Interface;
 
 
-namespace Services.Services
+namespace Services.Services.Implement
 {
     public class EmailService : IEmailService
     {
@@ -37,7 +38,7 @@ namespace Services.Services
 
             //Thiết lập địa chỉ email người gửi cho message.
             //ctor(<tên người dùng>, <cấu hình người gửi>)
-           emailMessage.From.Add(new MailboxAddress(_emailConfig.SenderName, _emailConfig.From));
+            emailMessage.From.Add(new MailboxAddress(_emailConfig.SenderName, _emailConfig.From));
 
             //thêm toàn bộ danh sách địa chỉ email người nhận (message.To) từ đối tượng message vào danh sách To của emailMessage.
             emailMessage.To.AddRange(message.To);
@@ -60,7 +61,7 @@ namespace Services.Services
             //SmtpClient dc sử dụng để  kết nối đến máy chủ SMTP -> gửi mail
             using var client = new SmtpClient();
             try
-            {   
+            {
                 //hàm kết nối đến máy chủ SMTP
                 //constructor sử dụng là ctor(host, port, useSsl)
                 client.Connect(_emailConfig.SmtpServer, _emailConfig.Port, true);
@@ -75,7 +76,8 @@ namespace Services.Services
 
                 //gửi mail
                 client.Send(mailMessage);
-            }catch
+            }
+            catch
             {
                 //log or throw
                 throw;

@@ -5,7 +5,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using Services.Models;
-using Services.Services;
+using Services.Services.Implement;
+using Services.Services.Interface;
 using System.Text;
 
 namespace IdentityAPIDemo

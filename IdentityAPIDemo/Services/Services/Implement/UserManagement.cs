@@ -13,8 +13,9 @@ using System.Security.Claims;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.Extensions.Configuration;
 using System.Security.Cryptography;
+using Services.Services.Interface;
 
-namespace Services.Services
+namespace Services.Services.Implement
 {
     public class UserManagement : IUserManagement
     {
@@ -43,7 +44,7 @@ namespace Services.Services
             {
                 return new ApiResponse<CreateUserResponse> { IsSuccess = false, StatusCode = StatusCodes.Status403Forbidden, Message = $"User using {registerModel.Email} already existed!" };
             }
-          
+
             //Tạo mới user với các thông tin cơ bản như Username, Email, SecurityStamp,..
             var user = new ApplicationUser()
             {
@@ -123,7 +124,7 @@ namespace Services.Services
                 };
             }
             //kiểm tra password đã nhập
-            if(!await _userManager.CheckPasswordAsync(user, loginModel.Password))
+            if (!await _userManager.CheckPasswordAsync(user, loginModel.Password))
             {
                 return new ApiResponse<LoginOTPResponse>
                 {
@@ -132,43 +133,43 @@ namespace Services.Services
                     Message = "Wrong user name or password",
                 };
             }
-            
+
             //có tồn tại và đúng tk mk thì -> check tiếp bảo mật 2 lớp
             if (user.TwoFactorEnabled)
+            {
+                //kiểm tra sự hiện diện của Identity.TwoFactorUserId khi user dc login và trả về mã code -> cần cho login lại để có cookie của user 
+                await _signInManager.SignOutAsync();
+                await _signInManager.PasswordSignInAsync(user, loginModel.Password, isPersistent: false, lockoutOnFailure: false);
+
+                var otpToken = await _userManager.GenerateTwoFactorTokenAsync(user, "Email");
+
+                return new ApiResponse<LoginOTPResponse>
                 {
-                    //kiểm tra sự hiện diện của Identity.TwoFactorUserId khi user dc login và trả về mã code -> cần cho login lại để có cookie của user 
-                    await _signInManager.SignOutAsync();
-                    await _signInManager.PasswordSignInAsync(user, loginModel.Password, isPersistent: false, lockoutOnFailure: false);
-
-                    var otpToken = await _userManager.GenerateTwoFactorTokenAsync(user, "Email");
-
-                    return new ApiResponse<LoginOTPResponse>
+                    IsSuccess = true,
+                    StatusCode = StatusCodes.Status200OK,
+                    Message = "OTP has been created",
+                    Response = new LoginOTPResponse
                     {
-                        IsSuccess = true,
-                        StatusCode = StatusCodes.Status200OK,
-                        Message = "OTP has been created",
-                        Response = new LoginOTPResponse
-                        {
-                            Token = otpToken,
-                            IsTwoFactorEnable = user.TwoFactorEnabled,
-                            User = user
-                        }
-                    };
-                }
-                else
-                    return new ApiResponse<LoginOTPResponse>
+                        Token = otpToken,
+                        IsTwoFactorEnable = user.TwoFactorEnabled,
+                        User = user
+                    }
+                };
+            }
+            else
+                return new ApiResponse<LoginOTPResponse>
+                {
+                    IsSuccess = false,
+                    StatusCode = StatusCodes.Status403Forbidden,
+                    Message = "2FA is not enabled",
+                    Response = new LoginOTPResponse
                     {
-                        IsSuccess = false,
-                        StatusCode = StatusCodes.Status403Forbidden,
-                        Message = "2FA is not enabled",
-                        Response = new LoginOTPResponse
-                        {
-                            Token = string.Empty,
-                            IsTwoFactorEnable = user.TwoFactorEnabled,
-                            User = user
-                        }
-                    };
-            
+                        Token = string.Empty,
+                        IsTwoFactorEnable = user.TwoFactorEnabled,
+                        User = user
+                    }
+                };
+
         }
 
         public async Task<ApiResponse<LoginResponse>> GetJwtTokenAsync(ApplicationUser user)
@@ -217,8 +218,8 @@ namespace Services.Services
                 Message = "Tokens are created successfully",
                 Response = new LoginResponse
                 {
-                   AccessToken = jwtTokenType,
-                   RefreshToken = rfTokenType,
+                    AccessToken = jwtTokenType,
+                    RefreshToken = rfTokenType,
                 }
             };
 
@@ -236,7 +237,7 @@ namespace Services.Services
             //lấy user
             var user = await _userManager.FindByNameAsync(principal.Identity.Name);
 
-            if(refreshToken.Token != user.RefreshToken || refreshToken.ExpiryTokenDate <= DateTime.Now)
+            if (refreshToken.Token != user.RefreshToken || refreshToken.ExpiryTokenDate <= DateTime.Now)
                 return new ApiResponse<LoginResponse>
                 {
                     IsSuccess = false,
@@ -246,7 +247,7 @@ namespace Services.Services
 
             var tokenResponse = await GetJwtTokenAsync(user);
 
-            return tokenResponse;   
+            return tokenResponse;
         }
 
         #region Private method
@@ -278,7 +279,7 @@ namespace Services.Services
 
         private string GenerateRefreshToken()
         {
-            var randomNumber = new Byte[64];
+            var randomNumber = new byte[64];
             var range = RandomNumberGenerator.Create();
 
             range.GetBytes(randomNumber);

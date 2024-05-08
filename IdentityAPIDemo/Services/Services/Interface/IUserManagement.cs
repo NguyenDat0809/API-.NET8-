@@ -6,7 +6,7 @@ using Services.Models.Authentication.Login;
 using Data.Models;
 
 
-namespace Services.Services
+namespace Services.Services.Interface
 {
     public interface IUserManagement
     {
