@@ -23,6 +23,14 @@ namespace IdentityAPIDemo
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
 
+            //thêm service Newtonsoft.Json cho Controller
+            //-> mục tiêu là ngăn chặn cycle n + 1 (vòng lặp vô hạn) khi truy xuất include
+            builder.Services.AddControllers()
+                .AddNewtonsoftJson(options =>
+                {
+                    options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore;
+                });
+
             //add JWTBearer authentication configuration for swagger
             builder.Services.AddSwaggerGen(option =>
             {
@@ -97,9 +105,11 @@ namespace IdentityAPIDemo
             //Add email config
             var emailConfig = configuration.GetSection("EmailConfiguration").Get<EmailConfiguration>();
 
+
             builder.Services.AddSingleton(emailConfig);
             builder.Services.AddScoped<IEmailService, EmailService>();
             builder.Services.AddScoped<IUserManagement, UserManagement>();
+
 
 
             var app = builder.Build();

@@ -194,6 +194,7 @@ C:\Users\84859\Workspace\_GITHUB\API.NET8\IdentityAPIDemo\IdentityAPIDemo\bin\De
 C:\Users\84859\Workspace\_GITHUB\API.NET8\IdentityAPIDemo\IdentityAPIDemo\bin\Debug\net8.0\MimeKit.dll
 C:\Users\84859\Workspace\_GITHUB\API.NET8\IdentityAPIDemo\IdentityAPIDemo\bin\Debug\net8.0\Mono.TextTemplating.dll
 C:\Users\84859\Workspace\_GITHUB\API.NET8\IdentityAPIDemo\IdentityAPIDemo\bin\Debug\net8.0\NETCore.MailKit.dll
+C:\Users\84859\Workspace\_GITHUB\API.NET8\IdentityAPIDemo\IdentityAPIDemo\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Users\84859\Workspace\_GITHUB\API.NET8\IdentityAPIDemo\IdentityAPIDemo\bin\Debug\net8.0\BouncyCastle.Crypto.dll
 C:\Users\84859\Workspace\_GITHUB\API.NET8\IdentityAPIDemo\IdentityAPIDemo\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\84859\Workspace\_GITHUB\API.NET8\IdentityAPIDemo\IdentityAPIDemo\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
