@@ -4735,11 +4735,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\84859\\Workspace\\_GITHUB\\Demo_projects\\IdentityAPIDemo\\IdentityAPIDemo\\IdentityAPIDemo.csproj",
+      "projectUniqueName": "C:\\Users\\84859\\Workspace\\_GITHUB\\API.NET8\\IdentityAPIDemo\\IdentityAPIDemo\\IdentityAPIDemo.csproj",
       "projectName": "IdentityAPIDemo",
-      "projectPath": "C:\\Users\\84859\\Workspace\\_GITHUB\\Demo_projects\\IdentityAPIDemo\\IdentityAPIDemo\\IdentityAPIDemo.csproj",
+      "projectPath": "C:\\Users\\84859\\Workspace\\_GITHUB\\API.NET8\\IdentityAPIDemo\\IdentityAPIDemo\\IdentityAPIDemo.csproj",
       "packagesPath": "C:\\Users\\84859\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\84859\\Workspace\\_GITHUB\\Demo_projects\\IdentityAPIDemo\\IdentityAPIDemo\\obj\\",
+      "outputPath": "C:\\Users\\84859\\Workspace\\_GITHUB\\API.NET8\\IdentityAPIDemo\\IdentityAPIDemo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\84859\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4756,8 +4756,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\84859\\Workspace\\_GITHUB\\Demo_projects\\IdentityAPIDemo\\Services\\Services.csproj": {
-              "projectPath": "C:\\Users\\84859\\Workspace\\_GITHUB\\Demo_projects\\IdentityAPIDemo\\Services\\Services.csproj"
+            "C:\\Users\\84859\\Workspace\\_GITHUB\\API.NET8\\IdentityAPIDemo\\Services\\Services.csproj": {
+              "projectPath": "C:\\Users\\84859\\Workspace\\_GITHUB\\API.NET8\\IdentityAPIDemo\\Services\\Services.csproj"
             }
           }
         }

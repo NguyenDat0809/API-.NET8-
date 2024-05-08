@@ -11,5 +11,7 @@ namespace Data.Models
     {
         public string? RefreshToken { get; set; }
         public DateTime RefreshTokenExpiry { get; set; }
+
+        public List<Portfolio> Portfolios { get; set; } = new();
     }
 }

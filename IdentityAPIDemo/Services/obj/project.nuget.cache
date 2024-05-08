@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GC0gqre6oLw2WR7exqTKz2HHnP5Cm/N8Ii8JmQJQNSo6C+VGaZRa6KUera/pkLj7GHtsyYJFpMSnwnsUAv/Bpw==",
+  "dgSpecHash": "3ad7EK5elLGtelfht0R25izz3R915VwxisKdk8wUClIRQRrIEIx6opTSlLvL5paMO1fsNIoHSyKF9k/rjweVVw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\84859\\Workspace\\_GITHUB\\Demo_projects\\IdentityAPIDemo\\Services\\Services.csproj",
+  "projectFilePath": "C:\\Users\\84859\\Workspace\\_GITHUB\\API.NET8\\IdentityAPIDemo\\Services\\Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\84859\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\84859\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
