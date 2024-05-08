@@ -1,12 +1,15 @@
 ﻿using Data.Models;
+using FinShark.Repositories;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using Services.Models;
-using Services.Services.Implement;
-using Services.Services.Interface;
+using Services.Repositories.Implements;
+using Services.Repositories.Interfaces;
+using Services.Services.Implements;
+using Services.Services.Interfaces;
 using System.Text;
 
 namespace IdentityAPIDemo
@@ -110,8 +113,9 @@ namespace IdentityAPIDemo
             builder.Services.AddSingleton(emailConfig);
             builder.Services.AddScoped<IEmailService, EmailService>();
             builder.Services.AddScoped<IUserManagement, UserManagement>();
-
-
+            builder.Services.AddScoped<IStockRepository, StockRepository>();
+            builder.Services.AddScoped<ICommentRepository, CommentRepository>();
+            builder.Services.AddScoped<IPortfolioRepository, Portfoliorepository>();
 
             var app = builder.Build();
             // Configure the HTTP request pipeline.
