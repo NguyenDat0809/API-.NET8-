@@ -6,12 +6,14 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using Serilog;
 using Services.Models;
 using Services.Repositories.Implements;
 using Services.Repositories.Interfaces;
 using Services.Services.Implements;
 using Services.Services.Interfaces;
 using System.Text;
+using System.Text.Json.Serialization;
 
 namespace IdentityAPIDemo
 {
@@ -23,7 +25,6 @@ namespace IdentityAPIDemo
             var configuration = builder.Configuration;
             
             // Add services to the container.
-
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
@@ -35,6 +36,15 @@ namespace IdentityAPIDemo
                 {
                     options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore;
                 });
+
+            builder.Services.AddControllers().AddJsonOptions(x =>
+            {
+                //new JsonStringEnumConverter(): converter để chuyển đổi các giá trị enum thành chuỗi JSON và ngược lại
+                //Mặc định, các giá trị enum sẽ được serialize thành số, nhưng với converter này, chúng sẽ được serialize thành chuỗi tương ứng.
+                x.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter());
+                //new TimeOnlyJsonConverter(): Thêm một converter tùy chỉnh (custom converter) để xử lý kiểu dữ liệu TimeOnly trong .NET 6, mà không có sẵn trong bộ serialize JSON mặc định.
+                //x.JsonSerializerOptions.Converters.Add(new TimeOnlyJsonConverter());
+            });
 
             //add JWTBearer authentication configuration for swagger
             builder.Services.AddSwaggerGen(option =>
@@ -118,6 +128,13 @@ namespace IdentityAPIDemo
             builder.Services.AddScoped<ICommentRepository, CommentRepository>();
             builder.Services.AddScoped<IPortfolioRepository, Portfoliorepository>();
 
+            //cấu hình serilog
+            Log.Logger = new LoggerConfiguration()
+                .MinimumLevel.Information()
+                .WriteTo.Console()
+                //còn nhiều thuộc tính khác nhưng dang tập trung vào basic
+                .WriteTo.File("serilog.txt")
+                .CreateLogger();
             var app = builder.Build();
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
