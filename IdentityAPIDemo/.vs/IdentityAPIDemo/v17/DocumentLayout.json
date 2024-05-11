@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\84859\\Workspace\\_GITHUB\\API.NET8\\IdentityAPIDemo\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5728C1B1-A14B-4EE8-AD77-4920E936BB86}|Services\\Services.csproj|c:\\users\\84859\\workspace\\_github\\api.net8\\identityapidemo\\services\\models\\helper\\queryobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5728C1B1-A14B-4EE8-AD77-4920E936BB86}|Services\\Services.csproj|solutionrelative:services\\models\\helper\\queryobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{155F5B3F-F660-40E9-BE2C-8B43C6E1DAC5}|IdentityAPIDemo\\IdentityAPIDemo.csproj|c:\\users\\84859\\workspace\\_github\\api.net8\\identityapidemo\\identityapidemo\\controllers\\stockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{155F5B3F-F660-40E9-BE2C-8B43C6E1DAC5}|IdentityAPIDemo\\IdentityAPIDemo.csproj|solutionrelative:identityapidemo\\controllers\\stockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -42,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1641,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,7 +66,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "QueryObject.cs",
+              "DocumentMoniker": "C:\\Users\\84859\\Workspace\\_GITHUB\\API.NET8\\IdentityAPIDemo\\Services\\Models\\Helper\\QueryObject.cs",
+              "RelativeDocumentMoniker": "Services\\Models\\Helper\\QueryObject.cs",
+              "ToolTip": "C:\\Users\\84859\\Workspace\\_GITHUB\\API.NET8\\IdentityAPIDemo\\Services\\Models\\Helper\\QueryObject.cs",
+              "RelativeToolTip": "Services\\Models\\Helper\\QueryObject.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T17:10:43.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "ClaimsExtension.cs",
               "DocumentMoniker": "C:\\Users\\84859\\Workspace\\_GITHUB\\API.NET8\\IdentityAPIDemo\\Services\\ClaimsExtension\\ClaimsExtension.cs",
               "RelativeDocumentMoniker": "Services\\ClaimsExtension\\ClaimsExtension.cs",
@@ -75,7 +92,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "StockMappers.cs",
               "DocumentMoniker": "C:\\Users\\84859\\Workspace\\_GITHUB\\API.NET8\\IdentityAPIDemo\\Services\\Mappers\\StockMappers.cs",
               "RelativeDocumentMoniker": "Services\\Mappers\\StockMappers.cs",
@@ -88,7 +105,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "CommentMappers.cs",
               "DocumentMoniker": "C:\\Users\\84859\\Workspace\\_GITHUB\\API.NET8\\IdentityAPIDemo\\Services\\Mappers\\CommentMappers.cs",
               "RelativeDocumentMoniker": "Services\\Mappers\\CommentMappers.cs",
@@ -101,7 +118,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\84859\\Workspace\\_GITHUB\\API.NET8\\IdentityAPIDemo\\IdentityAPIDemo\\Program.cs",
               "RelativeDocumentMoniker": "IdentityAPIDemo\\Program.cs",
@@ -114,7 +131,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "StockController.cs",
               "DocumentMoniker": "C:\\Users\\84859\\Workspace\\_GITHUB\\API.NET8\\IdentityAPIDemo\\IdentityAPIDemo\\Controllers\\StockController.cs",
               "RelativeDocumentMoniker": "IdentityAPIDemo\\Controllers\\StockController.cs",
@@ -127,7 +144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "PortfolioController.cs",
               "DocumentMoniker": "C:\\Users\\84859\\Workspace\\_GITHUB\\API.NET8\\IdentityAPIDemo\\IdentityAPIDemo\\Controllers\\PortfolioController.cs",
               "RelativeDocumentMoniker": "IdentityAPIDemo\\Controllers\\PortfolioController.cs",
@@ -140,7 +157,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "AuthenticationController.cs",
               "DocumentMoniker": "C:\\Users\\84859\\Workspace\\_GITHUB\\API.NET8\\IdentityAPIDemo\\IdentityAPIDemo\\Controllers\\AuthenticationController.cs",
               "RelativeDocumentMoniker": "IdentityAPIDemo\\Controllers\\AuthenticationController.cs",
@@ -153,7 +170,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "CommentController.cs",
               "DocumentMoniker": "C:\\Users\\84859\\Workspace\\_GITHUB\\API.NET8\\IdentityAPIDemo\\IdentityAPIDemo\\Controllers\\CommentController.cs",
               "RelativeDocumentMoniker": "IdentityAPIDemo\\Controllers\\CommentController.cs",

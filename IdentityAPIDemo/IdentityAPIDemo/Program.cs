@@ -1,5 +1,6 @@
 ﻿using Data.Models;
 using FinShark.Repositories;
+using IdentityAPIDemo.Middlewares;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -124,6 +125,8 @@ namespace IdentityAPIDemo
                 app.UseSwaggerUI();
                 app.UseSwagger();
             }
+            //thêm middleware mới định nghĩa vào
+            app.UseMiddleware<ExceptionHandlingMiddleware>();
 
             app.UseHttpsRedirection();
 
