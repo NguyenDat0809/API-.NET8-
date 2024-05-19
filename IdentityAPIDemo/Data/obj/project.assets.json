@@ -4284,11 +4284,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\84859\\Workspace\\_GITHUB\\Demo_projects\\IdentityAPIDemo\\Data\\Data.csproj",
+      "projectUniqueName": "C:\\Users\\84859\\Workspace\\_GITHUB\\API.NET8\\IdentityAPIDemo\\Data\\Data.csproj",
       "projectName": "Data",
-      "projectPath": "C:\\Users\\84859\\Workspace\\_GITHUB\\Demo_projects\\IdentityAPIDemo\\Data\\Data.csproj",
+      "projectPath": "C:\\Users\\84859\\Workspace\\_GITHUB\\API.NET8\\IdentityAPIDemo\\Data\\Data.csproj",
       "packagesPath": "C:\\Users\\84859\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\84859\\Workspace\\_GITHUB\\Demo_projects\\IdentityAPIDemo\\Data\\obj\\",
+      "outputPath": "C:\\Users\\84859\\Workspace\\_GITHUB\\API.NET8\\IdentityAPIDemo\\Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\84859\\AppData\\Roaming\\NuGet\\NuGet.Config",

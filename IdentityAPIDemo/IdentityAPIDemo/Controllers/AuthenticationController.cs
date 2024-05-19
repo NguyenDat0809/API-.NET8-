@@ -2,15 +2,12 @@
 using IdentityAPIDemo.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.IdentityModel.Tokens;
 using Services.Models;
 using Services.Models.Authentication.Login;
 using Services.Models.Authentication.SignUp;
 using Services.Models.Authentication.User;
-using Services.Services;
+using Services.Services.Interfaces;
 using System.ComponentModel.DataAnnotations;
-using System.IdentityModel.Tokens.Jwt;
-using System.Security.Claims;
 using System.Text;
 
 
